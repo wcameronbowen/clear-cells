@@ -7,4 +7,5 @@ function clearCells() {
   for (var cell in cells) {
     sheet.getRange(cells[cell]).clearContent();
   }
+  sheet.getRange("B9:C15").setValue('Empty')
 }
